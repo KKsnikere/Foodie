@@ -44,6 +44,38 @@ Aplikācija sastāv no vairākām galvenajām komponentēm:
 
 Šī kaloriju saskaitīšanas web aplikācija ir izstrādāta, izmantojot mūsdienīgas un uzticamas tehnoloģijas, kas nodrošina stabilitāti, drošību un lietotājam draudzīgu pieredzi. Python, Django un PostgreSQL kombinācija ļauj veidot spēcīgu un efektīvu aplikāciju, kas spēj apmierināt lietotāju vajadzības.
 
+#  Instrukcija
+
+## 1. Python Instalēšana
+
+1. Lejupielādējiet un instalējiet Python no [python.org](https://www.python.org/downloads/).
+2. Instalācijas laikā atzīmējiet "Add Python to PATH" un nospiediet "Install Now".
+3. Pārbaudiet instalāciju:
+
+   python --version
+
+## 2. Virtuālās vides izveidošana
+
+1. Atveriet komandrindu.
+2. Navigējiet uz direktoriju, kur vēlaties izveidot projektu.
+3. Izveidojiet virtuālo vidi:
+
+  python -m venv myenv
+  myenv\Scripts\activate
+
+## 3. Django instalēšana
+   pip install django
+   django-admin startproject myproject
+   cd myproject
+
+## 4. Servera palaišana
+
+  python manage.py runserver
+  Atveriet http://127.0.0.1:8000/ savā pārlūkprogrammā.
+
+Šīs instrukcijas palīdzēs jums ātri un vienkārši palaist Django projektu.
+
+
 
 
 
