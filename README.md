@@ -61,16 +61,20 @@ Aplikācija sastāv no vairākām galvenajām komponentēm:
 3. Izveidojiet virtuālo vidi:
 
   python -m venv myenv
+  
   myenv\Scripts\activate
 
 ## 3. Django instalēšana
    pip install django
+   
    django-admin startproject myproject
+   
    cd myproject
 
 ## 4. Servera palaišana
 
   python manage.py runserver
+  
   Atveriet http://127.0.0.1:8000/ savā pārlūkprogrammā.
 
 Šīs instrukcijas palīdzēs jums ātri un vienkārši palaist Django projektu.
