@@ -79,7 +79,17 @@ Aplikācija sastāv no vairākām galvenajām komponentēm:
 
 Šīs instrukcijas palīdzēs jums ātri un vienkārši palaist Django projektu.
 
+## 5 Testēšana
 
+## 5 Test Cases
+
+| **Test Case ID** | **Method**             | **Test Description**                                               | **Expected Outcome**                                                | **Result** |
+|------------------|------------------------|--------------------------------------------------------------------|----------------------------------------------------------------------|------------|
+| TC01             | index                  | Verify that the index method retrieves the list of products        | The method should return the correct view with the list of products  | Passed     |
+| TC02             | show                   | Verify that the show method retrieves a product's details by ID    | The method should return the correct view with the product's details | Passed     |
+| TC03             | getNutritionalInfo     | Verify that the nutritional information is retrieved for a product | The method should return the nutritional info including calories and nutrients | Passed |
+| TC04             | searchProducts         | Verify that the search method returns products matching the query  | The method should return the correct view with search results        | Passed     |
+| TC05             | filterByNutrients      | Verify that products can be filtered by nutrient content           | The method should return the correct view with filtered products     | Passed     |
 
 
 
